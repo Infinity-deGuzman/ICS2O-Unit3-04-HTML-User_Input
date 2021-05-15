@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit3-04-HTML-User_Input -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Temperature Converter, with Javascript">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Infinity de Guzman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./favicons/sunset-32x32.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="./favicons/sunset-16x16.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Temperature Converter, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Temperature Converter, with a JS</h1>
+    <h2>Formula:</h2>
+    <h3>Fahrenheit = (°F - 32) * 5 / 9</h3>
+    <p>
+      Enter the temperature in Fahrenheit:
+      <form action="javascript:doMathClicked()">
+        <label for="fahrenheit">Temperature in Fahrenheit:</label>
+        <input type="number" step="any" id="fahrenheit" placeholder="e.g 122°F">&nbsp°F<br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+    <div id="answers">
+      <div id="celsius"></div>
+    </div>
+  </body>
+</html>

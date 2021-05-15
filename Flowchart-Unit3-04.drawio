@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" modified="2021-05-15T01:52:12.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="P7Wu-yECNRvliugAYgEy" version="14.6.13" type="github">
+  <diagram id="vb_7gZKBfOvfCjhefr-F" name="Page-1">
+    <mxGraphModel dx="782" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MblrC9d64ii-NelniWwz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MblrC9d64ii-NelniWwz-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="50" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-3" value="Enter the&lt;br&gt;temperature&lt;br&gt;in Fahrenheit" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237" y="280" as="targetPoint" />
+            <mxPoint x="237" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-5" value="C = (F - 32) * 5 / 9" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="280" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237" y="410" as="targetPoint" />
+            <mxPoint x="237" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-7" value="Show&lt;br&gt;temperature in&lt;br&gt;Celsius" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237" y="540" as="targetPoint" />
+            <mxPoint x="237" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MblrC9d64ii-NelniWwz-9" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
